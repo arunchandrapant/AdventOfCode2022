@@ -96,8 +96,8 @@ namespace Day03
         /// <summary>
         /// Get sum of priority score for item not correctly placed in each rucksack.
         /// </summary>
-        /// <param name="rucksacks"></param>
-        /// <returns></returns>
+        /// <param name="rucksacks">Rucksacks for each Elf.</param>
+        /// <returns>Sum of priority score for each rucksack.</returns>
         public static int GetSumOfPriorityScoresForRucksacks(IEnumerable<IEnumerable<char>> rucksacks)
         {
             return rucksacks
