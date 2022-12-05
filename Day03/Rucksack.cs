@@ -1,6 +1,4 @@
-﻿using System.Reflection;
-using static MoreLinq.Extensions.BatchExtension;
-
+﻿using static MoreLinq.Extensions.BatchExtension;
 
 namespace Day03
 {
